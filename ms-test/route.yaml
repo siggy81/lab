@@ -2,7 +2,7 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: ms-test
-  namespace: ndc-dev
+  namespace: ndc-test
   labels:
     application: ms-test
 spec:
