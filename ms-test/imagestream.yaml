@@ -2,7 +2,7 @@ kind: ImageStream
 apiVersion: image.openshift.io/v1
 metadata:
   name: ms-test
-  namespace: namespace-backend # Simona - Update the namespace post cluster creation.
+  namespace: ndc-prod
   labels:
     application: ms-test
 spec:
